@@ -112,6 +112,7 @@ HC-SR501 PIR Motion Detector
 * O: the system recognizes that someone really exists there
 * X: the system recognizes that someone leaves already
 
+console output:
 
 	00:01:00  pv:0 dc:0	ndc:1	Max(ndc):1 ... [X]
 	...
