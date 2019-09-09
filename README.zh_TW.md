@@ -163,12 +163,12 @@ ps: 你其實也可以買得到已經做好燒錄切換的 USB 模組，不需�
 
 	{timestamp} pv:{PIR value} dc:{detected count} ndc:{no-detected count} Max(ndc):{max of ndc} {time(sec)}
 
-* timestamp: 時間戳記 (上電後經過多少時間)
-* pv: PIR current value，及 out pin 輸出的訊號。{ 0: Low, 1: High }
-* dc: 紀錄連續偵測到 (pv=1) 的次數，一旦 pv=0 reset
-* ndc: 紀錄沒連續偵測到 (pv=0) 的次數，一旦 pv=1 reset
-* Max(ndc): 目前為止 ndc 最大的次數
-* time(sec): 次數換成時間，由於目前程式設定是一秒偵測一次，目前其實跟 Max(ndc) 一樣。
+* **timestamp**: 時間戳記 (上電後經過多少時間)
+* **pv**: PIR current value，及 out pin 輸出的訊號。{ 0: Low, 1: High }
+* **dc**: 紀錄連續偵測到 (pv=1) 的次數，一旦 pv=0 reset
+* **ndc**: 紀錄沒連續偵測到 (pv=0) 的次數，一旦 pv=1 reset
+* **Max(ndc)**: 目前為止 ndc 最大的次數
+* **time(sec)**: 次數換成時間，由於目前程式設定是一秒偵測一次，目前其實跟 Max(ndc) 一樣。
 
 
 ### (v1) MotionDetect_Count
