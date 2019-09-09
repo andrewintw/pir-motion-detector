@@ -1,7 +1,8 @@
-# pir-motion-detector
+# HC-SR501 PIR Motion Detector
 
-HC-SR501 PIR Motion Detector
+* [中文說明](README.zh_TW.md)
 
+-----
 
 ## Console output format
 
